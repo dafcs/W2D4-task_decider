@@ -22,4 +22,4 @@ class TestDecider(unittest.TestCase):
         self.result = get_preferred_option("Do Ironing","Cook Dinner")
         self.assertEqual("Cook Dinner", self.result)
     def test_task_decider_fail(self):
-        self.assertEqual("be serious fam", get_preferred_option("Wash Dishes","Wash Dishes"))
+        self.assertEqual("you having a laugh", get_preferred_option("Wash Dishes","Wash Dishes"))

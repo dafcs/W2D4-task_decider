@@ -33,7 +33,7 @@ def get_preferred_option(task1,task2):
             return(key)
         if task2 == key and task1 in preferences[key]:
             return(key)
-    return "be serious fam"
+    return "you having a laugh"
 
 
 get_preferred_option("Wash Dishes","Wash Dishes")
