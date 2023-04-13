@@ -3,6 +3,8 @@ from src.task_decider import *
 from src.task import Task
 
 class TestDecider(unittest.TestCase):
+    def setUp(self):
+        self.task = Task("Wash Clothes",10)
 
     
 
